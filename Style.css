@@ -1,0 +1,198 @@
+@font-face {
+    font-family: "Spartan-regular";
+    src: url(/assets/Spartan/Spartan-Regular.ttf);
+}
+
+@font-face{
+    font-family: "Spartan-bold";
+    src: url(/assets/Spartan/Spartan-ExtraBold.ttf)
+}
+
+body{
+
+    font-family: "Spartan-regular";
+    margin: 5%;
+}
+
+.header h1{
+    color: rgb(80, 32, 80);
+    font-size: 45px; 
+    text-align: center;
+    font-family: "Spartan-bold";
+    width: 500px;
+}
+
+.header p{
+    color: rgb(160, 93, 187);
+    text-align: center;
+    width: 450px; 
+    margin-left: 25px;
+    margin-bottom: 5%;
+}
+
+.review{
+    border: 1px solid rgb(247, 242, 247); 
+    background-color: rgb(247, 242, 247); 
+    color: rgb(80, 32, 80);
+    font-family: "Spartan-bold";
+    text-align: center;
+    width: 500px;
+    margin: 10px;
+}
+
+.review img{
+    padding-left: 10px;
+    margin-left: 10px;
+}
+
+.review p{
+    padding-left: 40px;
+}
+
+.first-part{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    align-items: center;
+} 
+
+.user h5{
+
+    color: rgb(238, 104, 164); 
+    font-size: 15px;
+}
+
+.user h4{
+    font-size: 15px;
+}
+
+.user{
+    border: 1px solid rgb(80, 32, 80);
+    background-color: rgb(80, 32, 80);
+    border-radius: 10px;
+    margin: 3%;
+    width: 500px;
+    height: 320px;
+    text-align: left;
+    color: white;
+}
+
+.user:hover{
+    background-color: rgb(146, 27, 146);
+    border-color: rgb(146, 27, 146);
+}
+
+.user img{
+    border-radius: 50px;
+}
+
+.user p{
+
+    width: 400px;
+    font-size: 20px;
+    padding-left: 5%;
+    padding-top: 5%;
+}
+
+.name{
+    padding-left: 5%;
+}
+
+.userhead{
+    
+    display: grid;
+    grid-template-columns: 20% 80%;
+    align-items: center;
+    margin-left: 10%;
+    margin-top: 5%;
+
+}
+
+
+
+
+/*Responsive*/
+
+@media screen and (min-width: 1250px) {
+    .review{ display: flex;
+        flex-flow: row wrap;
+        align-items:center;
+        justify-content: flex-start;
+        padding-right: 40px;;}
+ }
+
+ @media screen and (min-width: 1250px) {
+    .first{ margin-left: -20%;
+         
+    }
+ }
+
+ 
+ @media screen and (min-width: 1250px) {
+    .second{ margin-left: -10%;
+         
+    }
+ }
+
+ @media screen and (min-width: 1600px) {
+    .Users-reviews{ display: flex;
+        flex-flow: row wrap;
+        justify-content: flex-start;
+         
+    }
+ }
+
+ @media screen and (min-width: 1600px) {
+    .one{ margin-top: 4%;
+         
+    }
+ }
+
+ @media screen and (min-width: 1600px) {
+    .two{ margin-top: 6%;
+        margin-left: 4%;
+         
+    }
+ }
+
+ @media screen and (min-width: 1600px) {
+    .header h1{ text-align: left;
+         
+    }
+ }
+
+ @media screen and (min-width: 1600px) {
+    .header p{ text-align: left;
+        width: 500px;
+        margin-left: -1%;
+         
+    }
+ }
+
+ @media screen and (min-width: 1600px) {
+    .header{ margin-left: -8%;
+         
+    }
+ }
+
+ @media screen and (min-width: 1600px) {
+    .all-reviews{ margin-right: -3%;
+         
+    }
+ }
+
+ @media screen and (min-width: 1600px) {
+    .user{ width: 450px;
+         
+    }
+ }
+
+
+
+
+
+ 
+
+
+
+
