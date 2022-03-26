@@ -1,5 +1,5 @@
 # ExCss_02
 ## Introduction
 Exercise of integration 
-## techonologies
+## Techonologies
 HTML, CSS
